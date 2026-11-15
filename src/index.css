@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.75rem;
+  }
+
+  section[id] {
+    scroll-margin-top: 4.75rem;
+  }
+
+  @media (min-width: 1024px) {
+    html {
+      scroll-padding-top: 5.25rem;
+    }
+
+    section[id] {
+      scroll-margin-top: 5.25rem;
+    }
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  body {
+    overflow-x: clip;
+  }
+
+  :focus-visible {
+    outline: 2px solid #FACC15;
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes subtle-float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-subtle-float {
+  animation: subtle-float 5.5s ease-in-out infinite;
+}
