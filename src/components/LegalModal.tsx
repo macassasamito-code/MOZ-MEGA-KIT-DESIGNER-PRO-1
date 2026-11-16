@@ -71,7 +71,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
               </p>
               <p>
                 <strong>2. Formato de Entrega:</strong> Após a confirmação do
-                pagamento no checkout oficial da Tutora, o comprador recebe um
+                pagamento no checkout oficial da lojou.app, o comprador recebe um
                 ficheiro PDF contendo o link de acesso aos componentes do Mega
                 Kit.
               </p>
@@ -85,7 +85,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
               <p>
                 <strong>4. Pagamento:</strong> Toda a transacção financeira e
                 processamento da entrega do PDF ocorrem directamente no ambiente
-                seguro da plataforma Tutora.
+                seguro da plataforma lojou.app.
               </p>
             </>
           ) : (

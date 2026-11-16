@@ -13,7 +13,7 @@ export const PRODUCT_CURRENCY = "MT";
 
 export const CHECKOUT_URL = "https://pay.lojou.app/zy90H";
 
-export const PLATFORM_NAME = "TUTORA — Moçambique";
+export const PLATFORM_NAME = "lojou.app";
 
 export const FORMATTED_PRICE = `${PRODUCT_PRICE} ${PRODUCT_CURRENCY}`;
 

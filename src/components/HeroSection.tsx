@@ -76,7 +76,7 @@ export const HeroSection: React.FC = () => {
                 </span>
               </div>
               <span className="text-xs sm:text-sm text-slate-300 border-l border-white/15 pl-4">
-                Pagamento único na Tutora · Entrega digital em PDF
+                Pagamento único na lojou.app · Entrega digital em PDF
               </span>
             </div>
 

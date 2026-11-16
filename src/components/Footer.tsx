@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
 
         <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-slate-400">
           <p>© 2026 {PRODUCT_NAME}. Todos os direitos reservados.</p>
-          <p>Produto digital · Comercialização oficial através da Tutora</p>
+          <p>Produto digital · Comercialização oficial através da lojou.app</p>
         </div>
       </div>
     </footer>

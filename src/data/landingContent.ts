@@ -99,7 +99,7 @@ export const NAV_LINKS: NavLinkItem[] = [
 
 export const HERO_INDICATORS: string[] = [
   "Produto 100% digital",
-  "Compra através da Tutora",
+  "Compra através da lojou.app",
   "Entrega em PDF",
   "Acesso aos materiais através de link",
 ];
@@ -304,7 +304,7 @@ export const LIFETIME_STAGES: LifetimeStage[] = [
     stage: "ETAPA 1",
     title: "Adquire o MOZ MEGA KIT DESIGNER PRO.",
     description:
-      "Escolhe o pacote completo e avança para o checkout oficial da Tutora.",
+      "Escolhe o pacote completo e avança para o checkout oficial da lojou.app.",
   },
   {
     stage: "ETAPA 2",
@@ -448,9 +448,9 @@ export const PURCHASE_STEPS: PurchaseStep[] = [
   },
   {
     number: "02",
-    title: "COMPRA NA TUTORA",
+    title: "COMPRA NA LOJOU.APP",
     description:
-      "Clica no botão de compra e finaliza a aquisição através do checkout oficial da Tutora.",
+      "Clica no botão de compra e finaliza a aquisição através do checkout oficial da lojou.app.",
   },
   {
     number: "03",
@@ -480,7 +480,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: "Como posso comprar?",
     answer:
-      "A compra é realizada através do checkout oficial da plataforma Tutora, acessível pelo botão de compra desta página.",
+      "A compra é realizada através do checkout oficial da plataforma lojou.app, acessível pelo botão de compra desta página.",
   },
   {
     question: "Como recebo o produto?",
@@ -508,6 +508,6 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: "Onde faço o pagamento?",
     answer:
-      "O pagamento é efectuado directamente no checkout oficial da Tutora.",
+      "O pagamento é efectuado directamente no checkout oficial da lojou.app.",
   },
 ];

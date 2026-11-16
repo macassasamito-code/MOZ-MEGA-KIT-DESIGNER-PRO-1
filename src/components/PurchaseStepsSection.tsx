@@ -19,7 +19,7 @@ export const PurchaseStepsSection: React.FC = () => {
           </h2>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
             Todo o processo de compra e entrega do PDF com o link de acesso é
-            realizado através da plataforma oficial Tutora.
+            realizado através da plataforma oficial lojou.app.
           </p>
         </Reveal>
 

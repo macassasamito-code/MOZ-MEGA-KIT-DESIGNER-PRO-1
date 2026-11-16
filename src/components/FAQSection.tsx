@@ -26,7 +26,7 @@ export const FAQSection: React.FC = () => {
           </h2>
           <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
             Respostas claras sobre o conteúdo, entrega em PDF e aquisição na
-            plataforma Tutora.
+            plataforma lojou.app.
           </p>
         </Reveal>
 

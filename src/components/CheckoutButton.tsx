@@ -52,7 +52,7 @@ export const CheckoutButton: React.FC<CheckoutButtonProps> = ({
       onClick={handleClick}
       className={`group inline-flex items-center justify-center gap-2 rounded-xl bg-[#15803D] hover:bg-[#166534] active:scale-[0.99] text-white font-display font-bold tracking-tight text-center shadow-lg shadow-[#15803D]/25 border border-[#22C55E]/40 transition-all duration-150 ease-out sm:whitespace-nowrap shrink-0 cursor-pointer ${sizeClasses} ${fullWidth ? "w-full" : "max-w-full"} ${className}`}
     >
-      <span>{clicked ? "A abrir checkout..." : label}</span>
+      <span>{clicked ? "A abrir lojou.app..." : label}</span>
       <ArrowUpRight
         className="w-4 h-4 shrink-0 transition-transform duration-150 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
         aria-hidden="true"

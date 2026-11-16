@@ -152,7 +152,7 @@ export const GallerySection: React.FC = () => {
           Nota: As imagens acima são representações visuais ilustrativas de
           formatos gráficos e composições criativas; os ficheiros finais são
           acedidos através do link presente no PDF entregue após a compra na
-          Tutora.
+          lojou.app.
         </p>
       </div>
 

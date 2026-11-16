@@ -78,7 +78,7 @@ export const PricingSection: React.FC = () => {
                           className="w-4 h-4 text-[#FACC15] shrink-0"
                           aria-hidden="true"
                         />
-                        <span>Checkout oficial da plataforma Tutora</span>
+                        <span>Checkout oficial da plataforma lojou.app</span>
                       </p>
                       <p className="flex items-start justify-center gap-1.5">
                         <FileText
@@ -86,7 +86,7 @@ export const PricingSection: React.FC = () => {
                           aria-hidden="true"
                         />
                         <span>
-                          A compra é realizada através da plataforma Tutora. Após
+                          A compra é realizada através da plataforma lojou.app. Após
                           a aquisição, receberás o PDF com o link de acesso aos
                           componentes do teu Mega Kit.
                         </span>
